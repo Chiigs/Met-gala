@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'Vogue';
+    src: url('./assets/VogueAvantGarde-Medium.ttf');
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Vogue';
+}
+html,body{
+height:100%;
+width:100%;
+}
+
+.main{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-bottom: .2px solid rgba(74, 74, 74, 0.197);
+    /* position: fixed; */
+
+}
+
+.center img{
+    margin-left: 35%;
+}
+.right{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    margin-right: 20px;
+    border-bottom: .2px solid rgba(74, 74, 74, 0.197)
+}
+
+
+.nv2{
+    width: 100%;
+    height:6% ;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-style: initial;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-bottom: .2px solid rgba(74, 74, 74, 0.197);
+    /* position: fixed; */
+    
+    
+}
+
+.herosection{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    background-size: cover;
+    align-items: center;
+   display: flex;
+   justify-content: space-around;
+   background-image: url(https://assets.vogue.in/photos/663978ac50f1aa1354f572b6/16:9/w_1920%2Cc_limit/2151798774);
+   
+ 
+}
+
+.txt1{
+    color: #ffffff;
+    margin-top: 28%;
+    
+}
+
+.txt1 h1{
+    font-size: 55px;
+    text-align: center;
+}
+.txt1 h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.txt1 h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.page2{
+    width: 100%;
+    height: 100%;
+}
+.page2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    /* background-color: rgb(0, 0, 0); */
+    /* border-bottom: .5px solid rgba(74, 74, 74, 0.197); */
+
+}
+.left1{
+    width: 60%;
+    height: 80%;
+    background-color: red;
+    background-image: url(https://c.ndtvimg.com/2024-05/6r96rc7o_aliamet5_625x300_07_May_24.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.right1{
+    width: 30%;
+    height: 95%;
+    /* background-color: blue; */
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.right1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text1 {
+   margin-top: 65%;
+  font-size: 30PX;
+   text-align: center;
+       border-bottom: .5px solid rgba(74, 74, 74, 0.197);
+
+}
+
+.page3{
+    width: 100%;
+    /* background-color: brown; */
+}
+
+.lf{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.page4{
+    display: flex;
+    overflow: hidden;
+    /* overflow-x: auto; */
+    width: 100%;
+   
+    /* overflow-x: auto; */
+}
+.page4 img{
+    width: 23%;
+    height: 20%;
+    display: inline-block;
+    margin: 20px;
+    animation-name: scroll;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    /* perspective: 100%;   */
+    /* transform: translate(20px); */
+    
+
+}
+.img::-webkit-scrollbar{
+    display: none;
+}
+
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+        
+    }
+    100%{
+       
+        transform: translateX(calc(-100% * 4));
+  
+    }
+}
+img :hover{
+    transform: translateZ(20px);
+}
+
+.page5{
+    width: 100%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    border-bottom: .5px solid rgba(74, 74, 74, 0.197);
+
+}
+
+.l{
+    height: 100%;
+    width: 60%;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.l h1{
+    align-items: center;
+    font-size: 60px;
+    padding-top:  15%;
+}
+.l h2{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.l p{
+    font-size: 15px;
+}
+
+.r{
+    width: 40%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+  
+}
+
+.bx1{
+    width: 80%;
+    height: 95%;
+    /* background-color: blue; */
+    margin-left: 65px;
+    margin-top: 20px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.bx1 video{
+    object-fit: cover;
+}
+
+.page6{
+    width: 100%;
+   height: 100%;
+    /* background-color: red; */
+    /* display: flex; */
+}
+
+.page6 h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 30px;
+}
+.page6 p{
+    text-align: center;
+    font-size: 17px;
+    /* padding: 30px; */
+    
+}
+
+.container1{
+    width: 55%;
+    height: 90%;
+    /* background-color: red; */
+   background-image: url(https://sabyasachi.com/cdn/shop/files/A_4f4e2be4-e6ed-46e8-a0a1-cd37a89b0fe0_1920x@2x.jpg?v=1715045762);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 9px;
+    background-size: cover;
+    /* display: flex; */
+}
+
+.container2{
+    width: 45%;
+    height: 90%;
+    background-color: chocolate;
+    margin-top: 20px;
+    /* justify-content: end; */
+    background-image: url(https://sabyasachi.com/cdn/shop/files/m_7797a435-0c87-4ba4-97ca-a3d5cca01217_1920x@2x.jpg?v=1715073397);
+    
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.page7{
+    width: 100%;
+    height: 100%;
+}
+
+.new{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.new img{
+   
+    
+        width: 23%;
+        height: 20%;
+        display: inline-block;
+        margin: 20px;
+        animation-name: scroll2;
+        animation-duration: 11s;
+        animation-iteration-count: infinite;
+        border-radius: 20px;
+        animation-timing-function: linear;
+        animation-direction: normal;
+        animation-play-state: running;
+            /* perspective: 100%;   */
+        /* transform: translate(20px); */
+        /* overflow: hidden; */
+
+}
+
+
+.page7 .new::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+@keyframes scroll2 {
+    0%{
+        transform: translateX(0);
+        
+    }
+    100%{
+       
+        transform: translateX(calc(100% * 6));
+  
+    }
+}
+.page7 h2{
+    text-align: center;
+    /* margin-bottom:  20px; */
+  
+}
+
+
+.page8{
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+
+.m1{
+    width: 23%;
+    height: 90%;
+    /* background-color: brown; */
+    background-image: url(https://assets.vogue.com/photos/663a4e1eb5e66da05a60eb42/master/w_1600,c_limit/2151796112);
+    background-size: cover;
+    border-radius: 50px;
+ 
+}
+
+.m2{
+    width: 23%;
+    height: 90%;
+    /* background-color: brown; */
+    background-size: cover;
+    background-image: url(https://assets.vogue.com/photos/663a4e1bbc8545e6386c756f/master/w_1600,c_limit/2151825504);
+    border-radius: 50px;
+}
+.m3{
+    width: 23%;
+    height: 90%;
+    /* background-color: brown; */
+    background-size: cover;
+    background-image: url(https://fashionista.com/.image/t_share/MjA2MjUyNzM4NTYzMjIwNjU2/jack-harlow-met-gala-2024-every-look-9.jpg);
+    border-radius: 50px;
+}
+.m4{
+    width: 23%;
+    height: 90%;
+    /* background-color: brown; */
+    background-size: cover;
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/8e68452/2147483647/strip/true/crop/2511x3767+0+0/resize/800x1200!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fcb%2F93%2F375005ee4cd18ecbfc68e05a6b5f%2F2024-met-museum-costume-institute-benefit-gala-83549.jpg);
+    border-radius: 50px;
+}
+
+.page3 p{
+    font-size: 20px;
+}
